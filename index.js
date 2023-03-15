@@ -5,7 +5,7 @@ const { Server } = require('socket.io');
 const axios = require('axios');
 const base64 = require('base-64');
 const server = new Server();
-const PORT = 3001;
+const PORT = 4000;
 server.listen(PORT);
 
 let roomTracker = {
